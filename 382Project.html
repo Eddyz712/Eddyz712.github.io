@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Khanaa – Testimonials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        background: #f0aa41;
+        color: #331100;
+      }
+      header {
+        background: #f7ca87;
+        color: #fff;
+        padding: 10px 10px;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 40px;
+        letter-spacing: 1px;
+      }
+      .container {
+        background: #fdecd2;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 15px 20px;
+        border-radius: 20px;
+      }
+
+      .container img {
+        float: left;
+        margin-right: auto;
+        padding-right: 60px;
+        margin-bottom: 10px;
+        height: auto;
+      }
+      .container .lists {
+        margin-bottom: 170px;
+        padding-top: 100px;
+      }
+
+      .container h2 {
+        margin-top: auto;
+      }
+      .review {
+        background: #ffe0b3;
+        padding: 20px;
+        margin-bottom: 25px;
+        border-radius: 4px;
+      }
+      .review b {
+        color: #cc4400;
+      }
+      .review u {
+        text-decoration: underline;
+        color: #803300;
+      }
+      .review i {
+        font-family: "Times New Roman";
+        color: #994d00;
+      }
+      .review .name {
+        font-size: 19px;
+        font-family: "Times New Roman";
+        color: #331100;
+      }
+      .review .date {
+        font-size: 15px;
+        font-family: "Times New Roman";
+        color: #666;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 15px;
+        color: #803300;
+      }
+      a {
+        color: #ff6600;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .download {
+        display: inline-block;
+        margin: 10px 0 30px;
+        background: #ff6600;
+        color: #fff;
+        padding: 10px 18px;
+        border-radius: 4px;
+      }
+      img.banner {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        border-radius: 6px;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1><u>KhanaaBBQ</u></h1>
+      <p><i>Testimonials from our guests</i></p>
+    </header>
+
+    <div class="container">
+      <img
+        src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=900&q=60"
+        width="700"
+        height="500"
+      />
+      <div class="lists">
+        <h3>Our best selling dishes</h3>
+        <ol>
+          <li>BBQ pork ribs</li>
+          <li>signature sauces & creamy Mac & Cheese</li>
+          <li>Caesar Salad</li>
+        </ol>
+
+        <h3>What our guests love about Khanaa</h3>
+        <ul>
+          <li>Game Day & Tailgate Packs</li>
+          <li>Full Service Catering</li>
+          <li>Fast Drop Off & Setup</li>
+        </ul>
+      </div>
+      <hr />
+
+      <h2>What Our Guests Say...</h2>
+
+      <div class="review">
+        <p class="name"><b>Eddy Z.</b></p>
+        <p class="date">May 2025</p>
+        <p>
+          “The catering service was amazing, they provided all utensil and food
+          with incredible speed. <u>absolutely amazing</u> and the BBQ pork ribs
+          were absolutely—<i>impeccable</i>!”
+        </p>
+      </div>
+
+      <div class="review">
+        <p class="name"><b>Raj P.</b></p>
+        <p class="date">April 2025</p>
+        <p>
+          “We had a tailgate party catered by KhanaaBBQ they are extremely
+          budget friendly and had amazing options, This place is a must try
+          absolutely <b>unforgettable</b>.”
+        </p>
+      </div>
+
+      <div class="review">
+        <p class="name"><b>Maria &amp; Luis P.</b></p>
+        <p class="date">March 2025</p>
+        <p>
+          “From the <i>zesty orange-glazed salmon</i> to the
+          <u>warm rustic décor</u>, every detail felt like a celebration.”
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <a href="menu.pdf" class="download" download
+        >Download Sample Menu (PDF)</a
+      >
+      <br />
+
+      <p>
+        See what critics are saying on
+        <a href="http://google.com" target="_blank" rel="noopener">Yelp</a>
+        or leave us your own review on
+        <a
+          href="https://www.google.com/search?q=the+orange+lantern+restaurant"
+          target="_blank"
+          rel="noopener"
+          >Google Reviews</a
+        >.
+      </p>
+
+      <p>
+        Contact us at
+        <a href="mailto:KhanaaRestraunt@gmail.com">KhanaaRestraunt@gmail.com</a
+        >.
+      </p>
+      <p>Last modified: <span id="lastMod"></span></p>
+    </footer>
+
+    <script>
+      document.getElementById("lastMod").textContent = document.lastModified;
+    </script>
+  </body>
+</html>
